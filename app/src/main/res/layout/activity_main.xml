@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_background"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/login_edit_acc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="133dp"
+        android:drawableLeft="@mipmap/login_icon_phone_n_hdpi"
+        android:hint="@string/login_edit_acc" />
+
+    <EditText
+        android:id="@+id/login_edit_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_edit_acc"
+        android:drawableLeft="@mipmap/login_icon_lock_n_hdpi"
+        android:hint="@string/login_edit_pwd" />
+
+    <TextView
+        android:id="@+id/login_text_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_edit_pwd"
+        android:layout_alignParentRight="true"
+        android:text="@string/login_text_register"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/login_checkbox_remember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_edit_pwd"
+        android:text="@string/login_checkbox_remember"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/login_btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_checkbox_remember"
+        android:text="@string/login_btn_login" />
+
+</RelativeLayout>

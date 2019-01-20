@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">day08_test</string>
+    <string name="login_edit_acc">请输入账号</string>
+    <string name="login_edit_pwd">请输入密码</string>
+    <string name="login_text_register">快速注册</string>
+    <string name="login_btn_login">登录</string>
+    <string name="login_checkbox_remember">记住密码</string>
+    <string name="register_edit_acc">手机号</string>
+    <string name="register_edit_pwd">密码</string>
+    <string name="register_edit_yzm">验证码</string>
+    <string name="register_text_login">已有账户?立即登录</string>
+    <string name="register_btn_registe">注册</string>
+    <string name="rb3_checkbox_checkall">全选/全不选</string>
+    <string name="rb3_text_clearing">结算</string>
+    <string name="rb3_text_money">$</string>
+</resources>
